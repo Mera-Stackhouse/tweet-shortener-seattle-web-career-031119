@@ -22,7 +22,6 @@ def word_substituter(tweet)
   array.collect {|x|
     if dictionary.has_key?(x)
       x = dictionary[x]
-      puts x
     else
       x 
     end
