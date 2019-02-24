@@ -53,7 +53,7 @@ def shortened_tweet_truncator(tweet)
       tweet[137] = "."
       tweet[138] = "."
       tweet[139] = "."
-      tweet.slice(0, 139)
+      tweet.slice(0, 140)
     else
       tweet
     end
