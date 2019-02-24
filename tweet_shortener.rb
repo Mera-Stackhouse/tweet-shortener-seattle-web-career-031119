@@ -17,7 +17,6 @@ end
 
 
 def word_substituter(tweet)
-  #keys_array = dictionary.keys
   array = tweet.split(" ")
   new_array = array.collect {|x|
     if dictionary.has_key?(x)
@@ -28,3 +27,8 @@ def word_substituter(tweet)
   }
   new_array.join(" ")
 end
+
+
+def bulk_tweet_shortener(tweets)
+  
+end 
