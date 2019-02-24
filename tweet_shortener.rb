@@ -28,5 +28,3 @@ def word_substituter(tweet)
   }
   new_array.join(" ")
 end
-
-word_substituter("hello how are you")
