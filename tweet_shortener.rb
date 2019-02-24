@@ -26,6 +26,7 @@ def word_substituter(tweet)
       x 
     end
   }
+  puts new_array
   new_array.join(" ")  
 end
 
