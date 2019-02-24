@@ -19,14 +19,14 @@ end
 def word_substituter(tweet)
   #keys_array = dictionary.keys
   array = tweet.split(" ")
-  array.collect {|x|
+  new_array = array.collect {|x|
     if dictionary.has_key?(x)
       x = dictionary[x]
     else
       x 
     end
   }
-  array.join(" ")  
+  new_array.join(" ")  
 end
 
 word_substituter("hello how are you")
