@@ -18,6 +18,7 @@ end
 
 def word_substituter(tweet)
   keys_array = dictionary.keys
+  puts keys_array
   array = tweet.split(" ")
   array.collect {|x|
     if keys_array.has_key?(x)
